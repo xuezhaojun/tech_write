@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hellodep
+  labels:
+    app: hellodep
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: hellokube
+  template:
+    metadata:
+      labels:
+        app: hellokube
+    spec:
+      containers:
+      - name: hellokube
+        image: hellokube:1.0.0
+        ports:
+        - containerPort: 8080

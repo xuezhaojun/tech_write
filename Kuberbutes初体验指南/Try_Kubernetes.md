@@ -32,7 +32,7 @@ Then load our go-web-server Image into nodes: (you need to build an image first)
 kind load docker-image hellokube:1.0.0 --name hello
 ```
 
-![Try%20Kubernetes%2077b30c60fee449eca44ba7d1535013ce/Untitled.png](Try%20Kubernetes%2077b30c60fee449eca44ba7d1535013ce/Untitled.png)
+![Untitled.png](https://ae01.alicdn.com/kf/Uba344f2de2054e3e822ab958239fd36bl.png)
 
 For more information about kind: [https://kind.sigs.k8s.io/docs](https://kind.sigs.k8s.io/docs)
 
@@ -42,7 +42,7 @@ For more information about kind: [https://kind.sigs.k8s.io/docs](https://kind.si
 
 To run a container, at first we need to know **pod, node and cluster**:
 
-![Try%20Kubernetes%2077b30c60fee449eca44ba7d1535013ce/Untitled%201.png](Try%20Kubernetes%2077b30c60fee449eca44ba7d1535013ce/Untitled%201.png)
+![Untitled 1.png](https://ae04.alicdn.com/kf/Ue2fa301315f34b16af5b15f45898d8d7B.png)
 
 Some basic concepts and rules:
 
@@ -112,9 +112,9 @@ For more informations about **workload resource**: [https://kubernetes.io/docs/c
 
 ### What happened behind
 
-![Try%20Kubernetes%2077b30c60fee449eca44ba7d1535013ce/Untitled%202.png](Try%20Kubernetes%2077b30c60fee449eca44ba7d1535013ce/Untitled%202.png)
+![Untitled 2.png](https://ae02.alicdn.com/kf/U2d80e5a1fcfa4a67801c80bf4a229cdfm.png)
 
-![Try%20Kubernetes%2077b30c60fee449eca44ba7d1535013ce/Untitled%203.png](Try%20Kubernetes%2077b30c60fee449eca44ba7d1535013ce/Untitled%203.png)
+![Untitled 3.png](https://ae05.alicdn.com/kf/Ubfa331384cf84984b4bcc7112ab43946o.png)
 
 It's not what exactly happened, but basically we should know:
 
@@ -190,6 +190,6 @@ Hello Kube! 2021-04-09 17:57:53.0373083 +0000 UTC m=+6247.265377501
 
 Service and Endpoints are implemented by iptables, and Iptable are maintained by Node Component - kube-proxy. Here we don't go to detail.
 
-![Try%20Kubernetes%2077b30c60fee449eca44ba7d1535013ce/Untitled%204.png](Try%20Kubernetes%2077b30c60fee449eca44ba7d1535013ce/Untitled%204.png)
+![Untitled 4.png](https://ae04.alicdn.com/kf/Uc772ffc8e3aa4b6bb15431b02576b246i.png)
 
 For more information about Service : [https://kubernetes.io/zh/docs/concepts/services-networking/service/](https://kubernetes.io/zh/docs/concepts/services-networking/service/)
